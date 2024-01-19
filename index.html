@@ -2,41 +2,49 @@
 <html lang="pt-BR">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Landing Page</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" sizes="48x20" />    
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div class="header">
-      <ul>
-        Home Abut Contact
-      </ul>
+    <header class="flex-row background-none" >
+      <nav >
+        <ul class="flex-row gap-92">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <img src="/assets/logo.png" alt="Logo da empresa escrito (Landing) em fonte bold com cor vermelha."/>
+      <button type="button" class="box-shadow">Buy now</button>
+    </header>
 
-      <img src="/assets/logo.png" />
-
-      <button>Buy now</button>
-    </div>
-
-    <div class="content">
+    <main  class="content">
       <div>
-        <h2>Introduce Your Product Quickly & Effectively</h2>
+        <h1>Introduce Your Product Quickly & Effectively</h1>
 
-        <span>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim.
-        </span>
-
+        <p>Descubra a elegância suprema deste sofá contemporâneo. 
+          Seu design sofisticado e conforto inigualável tornam-no uma adição essencial para sua casa. 
+          Escolha a excelência, escolha nosso sofá.</p>
+          
+        <p>Seu revestimento em veludo macio proporciona uma sensação acolhedora, enquanto o apoio lombar ajustável garante relaxamento perfeito.
+          Uma escolha inigualável.</p>
+          
+        
         <button>Purchase UI Kit</button>
-
-        <a href="#">Learn More</a>
+        <button class="outline-btn">Learn More</button>
       </div>
-    </div>
 
-    <div style="background-color: #f78282; padding-top: 68px">
+      
+    </main>
+
+    <!-- <div style="background-color: #f78282; padding-top: 68px">
       <div style="display: flex; justify-content: space-between">
         <span style="color: white"> ©2023 {Yourcompany} </span>
 
@@ -54,6 +62,6 @@
           <img src="/assets/social.png" alt="Social" />
         </ul>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
